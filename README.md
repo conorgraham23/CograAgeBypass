@@ -16,7 +16,7 @@ Object.values(webpackChunkdiscord_app.push([[Symbol()], {}, r => r.c]))
   .exports.default.getCurrentUser().ageVerificationStatus = 3;
 
 
-Installation
+#Installation
 
     Download the plugin file
 
@@ -30,3 +30,4 @@ Installation
     Enable CograAgeBypass in Settings > BetterDiscord > Plugins
 
 Provided free without restriction but if you want to buy me a coffee: https://coff.ee/cogra
+##
