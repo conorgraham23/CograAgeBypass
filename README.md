@@ -3,20 +3,7 @@
 A simple BetterDiscord plugin that bypasses Discord’s NSFW age verification by setting your account's `ageVerificationStatus` to `3`.
 
 > ⚠️ This is a client-side modification and may violate Discord’s Terms of Service. Use at your own risk.
-
----
-
-## 🛠 How It Works
-
-This plugin runs the following on Discord startup:
-
-```js
-Object.values(webpackChunkdiscord_app.push([[Symbol()], {}, r => r.c]))
-  .find(x => x?.exports?.default?.__proto__?.getCurrentUser)
-  .exports.default.getCurrentUser().ageVerificationStatus = 3;
-
-
-#Installation
+Installation
 
     Download the plugin file
 
@@ -30,4 +17,17 @@ Object.values(webpackChunkdiscord_app.push([[Symbol()], {}, r => r.c]))
     Enable CograAgeBypass in Settings > BetterDiscord > Plugins
 
 Provided free without restriction but if you want to buy me a coffee: https://coff.ee/cogra
-##
+
+---
+
+## 🛠 How It Works
+
+This plugin runs the following on Discord startup:
+
+```js
+Object.values(webpackChunkdiscord_app.push([[Symbol()], {}, r => r.c]))
+  .find(x => x?.exports?.default?.__proto__?.getCurrentUser)
+  .exports.default.getCurrentUser().ageVerificationStatus = 3;
+
+
+
