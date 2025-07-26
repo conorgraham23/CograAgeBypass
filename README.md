@@ -28,3 +28,5 @@ Installation
     Restart Discord (or press Ctrl+R to reload)
 
     Enable CograAgeBypass in Settings > BetterDiscord > Plugins
+
+Provided free without restriction but if you want to buy me a coffee: https://coff.ee/cogra
